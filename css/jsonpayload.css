@@ -567,6 +567,7 @@ h5 {
   margin-right: .5em;
   margin-bottom: .8em;
   background: rgb(0,209,180);
+  font-size: 1em;
 }
 
 @media(min-width: 992px) {
