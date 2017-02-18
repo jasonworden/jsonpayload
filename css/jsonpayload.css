@@ -152,7 +152,7 @@ h1.big {
   margin: 0;
   font-size: 1.3em;
   position: relative;
-  text-transform: lowercase;
+  text-transform: uppercase;
 }
 
 .subtitle {
@@ -443,14 +443,14 @@ section#other h4 {
 
   h2.section-title {
     display: inline-block;
-    width: 350px;
+    width: 420px;
     text-align: center;
-    padding: 15px 30px 10px 30px;
+    padding: 15px 15px 11px;
   }
 
   div.tri {
-    border-left-width: 175px;
-    border-right-width: 175px;
+    border-left-width: 210px;
+    border-right-width: 210px;
   }
 
   .skill {
@@ -510,10 +510,6 @@ h6 {
   line-height: 1.4em;
   font-size: 1.1em;
   margin-bottom: 5px;
-}
-
-h5 {
-  text-transform: uppercase;
 }
 
 .skill-label {
