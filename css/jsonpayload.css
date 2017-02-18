@@ -567,11 +567,11 @@ h5 {
   margin-right: .5em;
   margin-bottom: .8em;
   background: rgb(0,209,180);
-  font-size: 1.5em;
+  font-size: 1.1em;
 }
 
-@media(min-width: 1200px) {
-  /*.skill-label {*/
-  /*bottom: 4px;*/
-  /*}*/
+@media(min-width: 992px) {
+  .badge-skill {
+    font-size: 1.5em;
+  }
 }
