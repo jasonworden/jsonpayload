@@ -10,202 +10,234 @@
 <!--<![endif]-->
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-    <title>JSON Payload</title>
-    <meta name="apple-mobile-web-app-title" content="jsonPayload">
-    <link rel="shortcut icon" href="img/jw-favicon.png" />
-    <link rel="apple-touch-icon" sizes="192x192" href="img/jw-ios-icon.png" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+  <title>JSON Payload</title>
+  <meta name="apple-mobile-web-app-title" content="jsonPayload">
+  <link rel="shortcut icon" href="img/jw-favicon.png" />
+  <link rel="apple-touch-icon" sizes="192x192" href="img/jw-ios-icon.png" />
 
-    <meta name="description" content='I create visual experiences and installations as an audio-visual artist and VJ.'>
-    <meta name="keywords" content="Jason Worden, Audio-visual artist, J$ON Payload, json payload, audio-visuals, Arduino, Three.js, Incidental Reflections, analog video synthesizers">
-    <meta name="author" content="Jason Worden">
-    <meta property="og:url" content="http://jasonworden.com/jsonpayload" />
-    <meta property="og:image" content="http://jasonworden.com/jsonpayload/img/incidental-reflections-blurred.png" />
+  <meta name="description" content='I create visual experiences and installations as an audio-visual artist and VJ.'>
+  <meta name="keywords" content="Jason Worden, Audio-visual artist, J$ON Payload, json payload, audio-visuals, Arduino, Three.js, Incidental Reflections, analog video synthesizers">
+  <meta name="author" content="Jason Worden">
+  <meta property="og:url" content="http://jasonworden.com/jsonpayload" />
+  <meta property="og:image" content="http://jasonworden.com/jsonpayload/img/incidental-reflections-blurred.png" />
 
-    <!--[if lt IE 9]>
+  <!--[if lt IE 9]>
 	<script src="js/html5.js"></script>
 	<![endif]-->
-    <script src="js/dist/head.load.min.js"></script>
-    <script>
-        head.js(
-          'https://code.jquery.com/jquery-2.2.4.min.js',    //v3 not compatible with smooth scroll plugin
-          'https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js',
-          'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js',
-          'js/dist/jquery.smooth-scroll.js'
-        );
-    </script>
-    <!--<link href='css/dist/bootstrap.css' rel='stylesheet' type='text/css'>-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <!--link href='css/dist/bootstrap.min.css' rel='stylesheet' type='text/css'-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href='css/main.css' rel='stylesheet' type='text/css'>
+  <script src="js/dist/head.load.min.js"></script>
+  <script>
+    head.js(
+      'https://code.jquery.com/jquery-2.2.4.min.js', //v3 not compatible with smooth scroll plugin
+      'https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js',
+      'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js',
+      'js/dist/jquery.smooth-scroll.js'
+    );
+  </script>
+  <!--<link href='css/dist/bootstrap.css' rel='stylesheet' type='text/css'>-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <!--link href='css/dist/bootstrap.min.css' rel='stylesheet' type='text/css'-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='css/main.css' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-    <![if !IE]>
-    <script>
-        head.js('js/jsonpayload.js');
-    </script>
-    <![endif]>
+  <![if !IE]>
+  <script>
+    head.js('js/jsonpayload.js');
+  </script>
+  <![endif]>
 
-    <div id="main">
+  <div id="main">
 
-        <section id="intro">
-            <div class="container inner">
-                <div class="col-md-8 full-height">
-                    <h1 class="big">/* JSON Payload */</h1>
-                    <h3>
-                        // audio-visuals
-                    </h3>
-                    <h3>
-                        // light + motion experimentation
-                    </h3>
-                    <h3>
-                        // creative coding
-                    </h3>
-                    <div style="margin-top: 30px" class="col-social-links">
-                        <div class="clearfix"><!--
-                        --><a class="social-link"
-                              href="https://vimeo.com/jsonpayload"
-                              target="_blank"
-                              data-toggle="tooltip" data-placement="top" title="Vimeo"
-                        >
+    <section id="intro">
+      <div class="container inner">
+        <div class="col-md-8 full-height">
+          <h1 class="big">/* JSON Payload */</h1>
+          <h3>
+              // video synthesis
+          </h3>
+          <h3>
+              // audio-visuals
+          </h3>
+          <h3>
+              // light + motion experimentation
+          </h3>
+          <h3>
+              // creative coding
+          </h3>
+          <div style="margin-top: 30px" class="col-social-links">
+            <div class="clearfix">
+              <!--
+                        --><a class="social-link" href="https://vimeo.com/jsonpayload" target="_blank" data-toggle="tooltip" data-placement="top" title="Vimeo">
                             <i class="fa fa-2x fa-vimeo" aria-hidden="true"></i>
-                        </a><!--
-                        --><a class="social-link"
-                                          href="https://www.youtube.com/playlist?list=PLqQs_CT0z86Qju5PjII8-hUyj51uLbmAa"
-                                          target="_blank"
-                                          data-toggle="tooltip" data-placement="top" title="Youtube"
-                        >
+                        </a>
+              <!--
+                        --><a class="social-link" href="https://www.youtube.com/playlist?list=PLqQs_CT0z86Qju5PjII8-hUyj51uLbmAa" target="_blank" data-toggle="tooltip" data-placement="top" title="Youtube">
                             <i class="fa fa-2x fa-youtube" aria-hidden="true"></i>
-                        </a><!--
-                        --><a class="social-link"
-                                          href="https://www.instagram.com/jsonpayload"
-                                          target="_blank"
-                                          data-toggle="tooltip" data-placement="top" title="Instagram"
-                        >
+                        </a>
+              <!--
+                        --><a class="social-link" href="https://www.instagram.com/jsonpayload" target="_blank" data-toggle="tooltip" data-placement="top" title="Instagram">
                             <i class="fa fa-2x fa-instagram" aria-hidden="true"></i>
-                        </a><!--
-                        --><a class="social-link"
-                                          href="https://www.facebook.com/jsonpayload"
-                                          target="_blank"
-                                          data-toggle="tooltip" data-placement="top" title="Facebook"
-                        >
+                        </a>
+              <!--
+                        --><a class="social-link" href="https://www.facebook.com/jsonpayload" target="_blank" data-toggle="tooltip" data-placement="top" title="Facebook">
                             <i class="fa fa-2x fa-facebook-square" aria-hidden="true"></i>
-                        </a><!--
-                    --></div>
-                    </div>
-                </div>
+                        </a>
+              <!--
+                    -->
             </div>
-            <i id="scroll-arrow" class="fa fa-angle-double-down icon-bouncing scroll-arrow lg" aria-hidden="true" style="display: none" data-target="1"></i>
-        </section>
+          </div>
+        </div>
+      </div>
+      <i id="scroll-arrow" class="fa fa-angle-double-down icon-bouncing scroll-arrow lg" aria-hidden="true" style="display: none" data-target="1"></i>
+    </section>
 
-        <section id="incidental-reflections">
-            <div class="container title-wrapper">
-                <h2 class="section-title">Incidental Reflections</h2>
-                <div class="tri"></div>
+    <section id="incidental-reflections">
+      <div class="container title-wrapper">
+        <h2 class="section-title">Incidental Reflections</h2>
+        <div class="tri"></div>
+      </div>
+      <div class="clearfix"></div>
+      <div class="container inner">
+        <div class="row">
+          <div class="col-12">
+            <h5 class="subtitle">Motion-induced reflection and light diffraction installation</h5>
+          </div>
+          <div class="col-lg-9">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe src="https://player.vimeo.com/video/203724115?title=0&byline=0&portrait=0&color=00e5c5" width="1280" height="720" class="embed-responsive-item" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
-            <div class="clearfix"></div>
-            <div class="container inner">
-                <div class="row">
-                    <div class="col-12">
-                        <h5 class="subtitle">Motion-induced reflection and light diffraction installation</h5>
-                    </div>
-                    <div class="col-lg-9">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe
-                                    src="https://player.vimeo.com/video/203724115?title=0&byline=0&portrait=0&color=00e5c5"
-                                    width="1280" height="720"
-                                    class="embed-responsive-item"
-                                    frameborder="0"
-                                    webkitallowfullscreen mozallowfullscreen allowfullscreen
-                            ></iframe>
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </div>
+      <i class="fa fa-angle-double-down scroll-arrow" aria-hidden="true" style="display: none" data-target="2"></i>
+    </section>
+
+    <section id="experience">
+      <div class="container title-wrapper">
+        <h2 class="section-title">experience</h2>
+        <div class="tri"></div>
+      </div>
+      <div class="clearfix"></div>
+      <div class="container inner">
+        <div class="row">
+          <div class="col-lg-9">
+            <h3 class="font-weight-bold">
+              Visuals coordinator @ Resident SF
+            </h3>
+            <p>
+              Resident is a monthly open-mic style electronic and visuals event.
+              I perform visuals, coordinate setup for visual artists, and mix artists' visuals together.
+              Serendipitous visual collabs are the highlights.
+            </p>
+            <h3 class="font-weight-bold">
+              Live audio-visuals
+            </h3>
+            <p>
+              I've recently performed visuals for several event series around the Bay Area, including
+              Visions of the New World,
+              Brouhaha,
+              Bread SF,
+              Resonant Frequencies,
+              Noctuary SF,
+              and Asterisk Collective.
+            </p>
+            <h3 class="font-weight-bold">
+              Gray Area Creative Coding Immersive student
+            </h3>
+            <p>
+              I participated in the Immersive program, and became intimate with creative coding hardware and software.
+              Breadboards and soldering irons became my best friends.
+            </p>
+          </div>
+        </div>
+      </div>
+      <i class="fa fa-angle-double-up scroll-arrow" aria-hidden="true" style="display: none" data-target="0"></i>
+    </section>
+
+    <section id="cc">
+      <div class="container title-wrapper">
+        <h2 class="section-title">toolset</h2>
+        <div class="tri"></div>
+      </div>
+      <div class="clearfix"></div>
+      <div class="container inner">
+        <div class="row">
+          <div class="col-lg-9">
+            <div class="skills">
+              <span class="badge badge-pill badge-skill">
+                              LZX-driven video synthesis
+                          </span>
+              <span class="badge badge-pill badge-skill">
+                              Roland V8 video mixer
+                          </span>
+              <span class="badge badge-pill badge-skill">
+                              Genlocked CCTV camera feedback
+                          </span>
+              <span class="badge badge-pill badge-skill">
+                              Roland P10 video sampler
+                          </span>
+              <span class="badge badge-pill badge-skill">
+                              Resolume Arena
+                          </span>
+              <span class="badge badge-pill badge-skill">
+                              Arduino
+                          </span>
+              <span class="badge badge-pill badge-skill">
+                              Syphon
+                          </span>
+              <span class="badge badge-pill badge-skill">
+                              Blackmagic Ultrastudio Express
+                          </span>
+              <span class="badge badge-pill badge-skill">
+                              Soldering
+                          </span>
+              <span class="badge badge-pill badge-skill">
+                              Paracosm Lumen
+                          </span>
+              <span class="badge badge-pill badge-skill">
+                              Premiere Pro
+                          </span>
+              <span class="badge badge-pill badge-skill">
+                              GrandVJ
+                          </span>
+              <span class="badge badge-pill badge-skill">
+                              P5.js
+                          </span>
+              <span class="badge badge-pill badge-skill">
+                              Three.js
+                          </span>
             </div>
-            <i class="fa fa-angle-double-down scroll-arrow" aria-hidden="true" style="display: none" data-target="2"></i>
-        </section>
+          </div>
+        </div>
+      </div>
+      <i class="fa fa-angle-double-up scroll-arrow" aria-hidden="true" style="display: none" data-target="0"></i>
+    </section>
 
-        <section id="cc">
-            <div class="container title-wrapper">
-                <h2 class="section-title">toolset</h2>
-                <div class="tri"></div>
-            </div>
-            <div class="clearfix"></div>
-            <div class="container inner">
-                <div class="row">
-                    <div class="col-lg-9">
-                        <div class="skills">
-                    <span class="badge badge-pill badge-skill">
-                        Resolume Arena
-                    </span>
-                    <span class="badge badge-pill badge-skill">
-                        Arduino
-                    </span>
-                    <span class="badge badge-pill badge-skill">
-                        Analog video synthesizers
-                    </span>
-                    <span class="badge badge-pill badge-skill">
-                        LZX Eurorack modules
-                    </span>
-                    <span class="badge badge-pill badge-skill">
-                        Syphon
-                    </span>
-                    <span class="badge badge-pill badge-skill">
-                        Blackmagic Ultrastudio Express
-                    </span>
-                    <span class="badge badge-pill badge-skill">
-                        Tessel 2
-                    </span>
-                    <span class="badge badge-pill badge-skill">
-                        Soldering iron
-                    </span>
-                    <span class="badge badge-pill badge-skill">
-                        Paracosm Lumen
-                    </span>
-                    <span class="badge badge-pill badge-skill">
-                        GrandVJ
-                    </span>
-                    <span class="badge badge-pill badge-skill">
-                        Projection mapping
-                    </span>
-                    <span class="badge badge-pill badge-skill">
-                        P5.js
-                    </span>
-                    <span class="badge badge-pill badge-skill">
-                        Three.js
-                    </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <i class="fa fa-angle-double-up scroll-arrow" aria-hidden="true" style="display: none" data-target="0"></i>
-        </section>
+  </div>
 
-    </div>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-40624625-2']);
+    _gaq.push(['_trackPageview']);
 
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-40624625-2']);
-        _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
 
-        (function() {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
-
-    <script>
-        head.ready(function() {
-          $('[data-toggle="tooltip"]').tooltip();
-        });
-    </script>
+  <script>
+    head.ready(function() {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
 </body>
 
 </html>
